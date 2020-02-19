@@ -15,20 +15,44 @@
 section{
        width: 80%;
        font-family: 'Times New Roman', Times, serif;
-       font-size: 50px;
+       font-size: 40px;
        height: 60%;
-       display: flex;
-       border: 4px solid burlywood;
-       align-items: center;
+       
+       
+       display: inline-block;
+       text-align: center;
+       -webkit-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
+-moz-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
+box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
+justify-content: center;
+margin: 10px;
+align-items: center;
+justify-content: center;
+border-radius: 5%;
+color: thistle;
+
+
 }
 .pic{
        width: 200px;
        height: 150px;
        float: left;
        padding: 10px;
-       margin: 10px;
+       margin: 20px;
+       -webkit-box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
+-moz-box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
+box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
        
 }
 p{
-       font-family: laquer;
+       font-family: 'Mukta', sans-serif;
+       color: thistle;
+
+}
+article{
+      display: inline-block;
+      justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+       margin-bottom: 20px;
 }
