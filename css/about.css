@@ -1,88 +1,53 @@
+body {
+       background-image: url(../img/ss.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
 
-*{
-       margin: 0;
-       background-image: url(../img/holaa.jpg);
-       webkit-background-size: cover;
-       moz-background-size: cover;
-       background-size: cover;
-       background-size: cover;
+
+
 }
-section{
-       width: 100%;
-       height: 100%;
-       font-family: 'Times New Roman', Times, serif;
-       font-size: 40px;
-       height: 60%;
-       box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
-       moz-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
-       border-radius: 5%;
+
+.initi {
+       width: 100px;
+       display: flex;
+}
+
+.my {
+       
+       height: 180px;
+
+       text-align: right;
+      
+       border-radius: 50%;
+
+}
+h1{
+       color: #111; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif; 
+       font-size: 40px; 
+       font-weight: bold; 
+       
+      
+       color: white;
+       margin-top: 0;
+}
+
+#about {
+      
+       width: 50%;
+       color: white;
+       height: 70%;
+       clear: left;
+       font-size: 25px;
        display: flex;
        align-items: center;
-   
+       justify-content: center;
+      
 
-
-
-}
-.pic{
-       width: 200px;
-       height: 150px;
-       float: left;
-       padding: 10px;
-       margin: 20px;
-       -webkit-box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
--moz-box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
-box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
-       
 }
 p{
-      
-
-}
-
-.social{
-       width: 80px;
-       height: 70px;
-       border: 2px solid blueviolet;
-       
-}
-#picc{
-       display: flex;
-      
-       
-       justify-content: space-around;
-       font-family: 'Times New Roman', Times, serif;
-       font-size: 18px;
-       list-style: none;
-       
-       height: 100px;
-       width: 150px;
-       margin-left: 40px;
-}
-footer{
-       width: 80%;
-       display: flex;
-}
-article{
-       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-.init{
-       width: 90px;
-       display: flex;
-       align-items: flex-end;
-       justify-items: self-end;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     padding: 10px;
        
 }
