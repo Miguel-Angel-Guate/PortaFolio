@@ -1,5 +1,5 @@
 body{
-  background-image: url(/img/holaa.jpg);
+  background-image: url(../img/holaa.jpg);
   webkit-background-size: cover;
   moz-background-size: cover;
   background-size: cover;
@@ -37,24 +37,8 @@ nav a{
     width: 100%;
     margin: 0 auto;
 }
-.face{
+.sociall{
 
-       width: 80px;
-       height: 70px;
-       border: 2px solid blueviolet;
-
-}
-.insta{
-       width: 80px;
-       height: 70px;
-       border: 2px solid blueviolet;
-}
-.linked{
-       width: 80px;
-       height: 70px;
-       border: 2px solid blueviolet;
-}
-.git{
        width: 80px;
        height: 70px;
        border: 2px solid blueviolet;
