@@ -1,9 +1,4 @@
-@font-face {
-       font-family: lacquer;
-       src: url("./fonts/Lacquer-Regular.ttf") format("ttf");
-       font-weight: normal;
-       font-style: normal;
-   }
+
 *{
        margin: 0;
        background-image: url(../img/holaa.jpg);
@@ -13,22 +8,17 @@
        background-size: cover;
 }
 section{
-       width: 80%;
+       width: 100%;
+       height: 100%;
        font-family: 'Times New Roman', Times, serif;
        font-size: 40px;
        height: 60%;
-       
-       
-       display: inline-block;
-       text-align: center;
-       -webkit-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
--moz-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
-justify-content: center;
-margin: 10px;
-align-items: center;
-justify-content: center;
-border-radius: 5%;
+       box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
+       moz-box-shadow: -18px -11px 12px 34px rgba(0,0,0,0.75);
+       border-radius: 5%;
+       display: flex;
+       align-items: center;
+   
 
 
 
@@ -45,8 +35,7 @@ box-shadow: -6px 3px 28px 22px rgba(38,128,98,1);
        
 }
 p{
-       font-family: 'Mukta', sans-serif;
-       color: thistle;
+      
 
 }
 
@@ -72,4 +61,28 @@ p{
 footer{
        width: 80%;
        display: flex;
+}
+article{
+       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.init{
+       width: 90px;
+       display: flex;
+       align-items: flex-end;
+       justify-items: self-end;
+       
 }
