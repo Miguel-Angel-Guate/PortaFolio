@@ -14,7 +14,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+	opacity: 80%;
 }
 .form-style-5{
 	max-width: 500px;
